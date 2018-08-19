@@ -1,0 +1,49 @@
+{
+	"basics":{
+		"name":"nikitha",
+		"role":"designer",
+		"mobile":"+9848022338",
+		"email":"nathani.nikitha@gmail.com"
+	},
+	"career":{
+		"info":"To pursue a challenging career and be a part of progressive organization that gives a scope to enhance my knowledge and utilizing my skills towards the growth of the organization"
+	},
+	"education":[
+		{
+
+		"degree":"B.tech(computer science Engineering)",
+		"institution":"Vignan Nirula",
+		"data":["2016-2020","80%"]
+	},
+     
+     {
+     	"degree":"Diploma(CME)",
+     	"institution":"Vignan",
+     	"data":["2014-2016","80%"]
+     },
+     {
+     	"degree":"S.S.C",
+     	"institution":"Bhashyam",
+     	"data":["2013-2014","94%"]
+     }
+    ],
+    "skills":[
+         {
+         	"title":"programming languages",
+         	"content":["python","c","java","SRP","c++"]
+         },
+         {
+         "title":"Data Bases",
+         "content":["sql","Oracle","my sql"]
+         },
+         {
+         "title":"web Technologies",
+         "content":["HTML","XML","javaScript"] 
+         },
+         {
+         "title":"Operating Systems",
+         "content":["windows","Unix","Linux"] 
+     }
+ ]
+}
+ 

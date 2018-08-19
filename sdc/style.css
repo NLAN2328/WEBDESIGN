@@ -1,0 +1,175 @@
+table{
+	width:100%;
+	border-collapse:collapse;
+	box-shadow: 3px 3px #ddd;
+}
+
+tr:nth-child(even){
+	background:#E4F09D ;
+}
+
+td,
+th{
+	padding:1%;
+}
+.skDiv{
+	width:100%;
+	border-left: 3px solid #0E4DBA;
+	padding: 1%;
+	margin:1%;
+}
+span{
+     background: #0E4DBA
+     color:#fff;
+     border: :1px solid #882D6E;
+     box-shadow: 3px 3px #ddd;
+     margin: 1%;
+     padding:1%;
+     border-radius: 5px;
+
+}
+.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.child1{
+	width:30%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align: center;
+	background:#9DF0DD;
+	color: red;
+}
+.child2{
+	width:70%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	background: #AAAA92;
+	color: red;
+}
+.profile{
+	width: 100px;
+	height: auto;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	text-align: center;
+	color: #29AABA;
+}
+a{
+	word-wrap: break-word;
+}
+@media only screen and (min-width:320px) and (max-width:480px){
+.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.child1{
+	width:90%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align: center;
+	background: #9DF0DD;
+}
+.child2{
+		width: 90%;
+	    border: 1px solid #ddd;
+	    padding:1%;
+	    margin:1%;
+	    background: blue;
+	    color: pink;
+}
+.profile{
+	width: 100px;
+	height: auto;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	text-align: center;
+	color: #29AABA;
+}
+}
+@media only screen and (min-width:481px) and (max-width:768px){
+.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.child1{
+	width:40%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align: center;
+	background: #9DF0DD;
+	color:green;
+}
+.child2{
+		width: 60%;
+	    border: 1px solid #ddd;
+	    padding:1%;
+	    margin:1%;
+}
+.profile{
+	width: 100px;
+	height: auto;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	text-align: center;
+	color: #29AABA;
+}
+body{
+	color:blue;
+}
+}
+
+@media only screen and (min-width:769px) and (max-width:1024px){
+.parent{
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.child1{
+	width:40%;
+	border:1px solid #ddd;
+	padding:1%;
+	margin:1%;
+	text-align: center;
+	background: #F3B0F1;
+	color:blue;
+}
+.child2{
+		width: 60%;
+	    border: 1px solid #ddd;
+	    padding:1%;
+	    margin:1%;
+	    background:#ACD2F3  ;
+	color: black;
+}
+.profile{
+	width: 50%;
+	height: auto;
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+}
+h1{
+	text-align: center;
+	}
+}
